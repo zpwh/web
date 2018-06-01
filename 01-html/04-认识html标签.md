@@ -52,4 +52,4 @@ Width=”” 属性	 设置宽度
 
 Height=“”属性	 设置高度
 
-<img src=”img.jpg”  alt=”这是一个老头” title=”帅哥一枚” width='100' height='30'>
+`<img src=”img.jpg”  alt=”这是一个老头” title=”帅哥一枚” width="100" height="30">`
