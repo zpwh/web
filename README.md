@@ -4,4 +4,6 @@
 
 前面主要讲述的是HTML、CSS、JavaScript等基本内容。后面以canvas、nodejs、angularjs移动端开发为主。
 
+关于本文章可以直接下载下来看，用Typora软件看比较方便一些
+
 **注**：*不同的浏览器可能部分图片加载不出来。*
