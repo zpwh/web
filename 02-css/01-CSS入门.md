@@ -115,14 +115,23 @@ CSS是以html为基础的。就是给html标签设置属性样式
          5：有意义的单词描述命名
 
             头：header、内容：content/container
+	    
             尾：footer 、导航：nav  、侧栏：sidebar
+	    
             栏目：column、页面外围控制整体布局宽度：wrapper
+	    
             左右中：left right center、登录条：loginbar
+	    
             标志：logo、广告：banner
+	    
             页面主体：main、热点：hot、新闻：news
+	    
             下载：download、子导航：subnav
+	    
             菜单：menu、子菜单：submenu
+	    
             搜索：search、友情链接：friendlink、页脚：footer
+	    
             版权：copyright、滚动：scroll、内容：content
 
 3. id选择器
