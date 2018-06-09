@@ -159,41 +159,41 @@ web-application:
   </html>
   ```
 
-  AngularJS写法的代码如下：
+AngularJS写法的代码如下：
 
-	```html
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-	<meta charset="UTF-8">
-	<title>Angular实现数据列表呈现</title>
-	</head>
-	<body ng-app="myApp">
-		<ul ng-controller="DemoController">
-			<li ng-repeat="item in data" data-id="item.id">
-				<span>{{item.name}}</span><span>{{item.age}}</span>
-			</li>
-		</ul>
-		<script src="./angular.js"></script>
-		<script>
-		(function () {
-			angular.module('myApp', [])
-			.controller('DemoController', function ($scope) {
-				var data = [
-					{id: 1, name: '张三', age: 19},
-					{id: 2, name: '李四', age: 22},
-					{id: 3, name: '王五', age: 33},
-					{id: 4, name: '赵六', age: 11},
-					{id: 5, name: '孙七', age: 22},
-					{id: 6, name: '周八', age: 44}
-				];
-				$scope.data = data;
-			});
-		})();
-		</script>
-	</body>
-	</html>
-	```
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Angular实现数据列表呈现</title>
+</head>
+<body ng-app="myApp">
+	<ul ng-controller="DemoController">
+		<li ng-repeat="item in data" data-id="item.id">
+			<span>{{item.name}}</span><span>{{item.age}}</span>
+		</li>
+	</ul>
+	<script src="./angular.js"></script>
+	<script>
+	(function () {
+		angular.module('myApp', [])
+		.controller('DemoController', function ($scope) {
+			var data = [
+				{id: 1, name: '张三', age: 19},
+				{id: 2, name: '李四', age: 22},
+				{id: 3, name: '王五', age: 33},
+				{id: 4, name: '赵六', age: 11},
+				{id: 5, name: '孙七', age: 22},
+				{id: 6, name: '周八', age: 44}
+			];
+			$scope.data = data;
+		});
+	})();
+	</script>
+</body>
+</html>
+```
 
 ## AngularJS数据双向绑定
 
